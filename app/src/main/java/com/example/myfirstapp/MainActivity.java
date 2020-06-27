@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, NextActivity.class);
         startActivity(intent);
     }
+
+    public void goToMyGLSurfaceViewActivity(View view) {
+        Intent intent = new Intent(this, MyGLSurfaceViewActivity.class);
+        startActivity(intent);
+    }
 }
